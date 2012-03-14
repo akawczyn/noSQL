@@ -1,0 +1,5 @@
+Skrypt pobiera dane o katastrofach w formacie tsv, konwertuje je na format json i importuje do bazy CouchDB podanej przez uzytkownika'
+	
+Wywolanie: ./import.sh host port
+host - nazwa hosta, na ktorym uruchomiona jest baza CouchDB
+port - port na ktorym dostepna jest baza
