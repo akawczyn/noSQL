@@ -15,7 +15,6 @@ host - nazwa hosta, na ktorym uruchomione sa bazy
 port1 - port na ktorym dostepna jest baza CouchDB
 port1 - port na ktorym dostepna jest baza MongoDB
 
-
 json_view.js
 ------------------------------------------------------------------------------------------------------------
 widok i lista do bazy CouchDB s³u¿¹ca do pobrania danych w formacie json
