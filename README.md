@@ -67,18 +67,18 @@ Wszystkie rodzaje wypadków i ich liczba:
 	
 OdpowiedŸ serwera(fragment):
 
-	```json
-	{"rows":[
-	{"key":"Complex Disasters","value":12},
-	{"key":"Drought","value":561},
-	{"key":"Earthquake (seismic activity)","value":1120},
-	{"key":"Epidemic","value":1179},
-	{"key":"Extreme temperature","value":361},
-	{"key":"Flood","value":3512},
-	{"key":"Industrial Accident","value":1190},
-	{"key":"Insect infestation","value":83},
-	{"key":"Mass movement dry","value":48},
-	```
+```json
+{"rows":[
+{"key":"Complex Disasters","value":12},
+{"key":"Drought","value":561},
+{"key":"Earthquake (seismic activity)","value":1120},
+{"key":"Epidemic","value":1179},
+{"key":"Extreme temperature","value":361},
+{"key":"Flood","value":3512},
+{"key":"Industrial Accident","value":1190},
+{"key":"Insect infestation","value":83},
+{"key":"Mass movement dry","value":48},
+```
 	
 
 Liczba zabitych w poszczególnych rodzajach wypadków: 
