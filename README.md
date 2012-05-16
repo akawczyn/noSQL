@@ -47,9 +47,11 @@ Suma zabitych w powodziach:
 	
 Odpowiedü serwera:
 
-	{"rows":[
-	{"key":null,"value":6911040}
-	]}
+```json
+{"rows":[
+{"key":null,"value":6911040}
+]}
+```
 
 Liczba wypadkÛw w transporcie: 
 	
@@ -57,9 +59,11 @@ Liczba wypadkÛw w transporcie:
 	
 Odpowiedü serwera:
 
-	{"rows":[
-	{"key":null,"value":4155}
-	]}
+```json
+{"rows":[
+{"key":null,"value":4155}
+]}
+```
 
 Wszystkie rodzaje wypadkÛw i ich liczba: 
 	
@@ -87,15 +91,17 @@ Liczba zabitych w poszczegÛlnych rodzajach wypadkÛw:
 	
 Odpowiedü serwera(fragment):
 
-	{"rows":[
-	{"key":"Complex Disasters","value":5610000},
-	{"key":"Drought","value":11708271},
-	{"key":"Earthquake (seismic activity)","value":2311491},
-	{"key":"Epidemic","value":9555059},
-	{"key":"Extreme temperature","value":108938},
-	{"key":"Flood","value":6911040},
-	{"key":"Industrial Accident","value":49797},
-	{"key":"Insect infestation","value":0},
+```json
+{"rows":[
+{"key":"Complex Disasters","value":5610000},
+{"key":"Drought","value":11708271},
+{"key":"Earthquake (seismic activity)","value":2311491},
+{"key":"Epidemic","value":9555059},
+{"key":"Extreme temperature","value":108938},
+{"key":"Flood","value":6911040},
+{"key":"Industrial Accident","value":49797},
+{"key":"Insect infestation","value":0},
+```
 
 Suma zabitych w Nowym Jorku: 
 	
@@ -103,9 +109,11 @@ Suma zabitych w Nowym Jorku:
 	
 Odpowiedü serwera:
 
-	{"rows":[
-	{"key":null,"value":2313}
-	]}
+```json
+{"rows":[
+{"key":null,"value":2313}
+]}
+```
 
 mongodb_map_reduce.js
 --------------------------------------------------------------------------------------------------------------
@@ -123,7 +131,8 @@ Suma zabitych w epidemiach:
 	
 Odpowiedü serwera(fragment):
 
-	"results" : [
+```json
+"results" : [
                 {
                         "_id" : [
                                 "Epidemic",
@@ -131,7 +140,8 @@ Odpowiedü serwera(fragment):
                         ],
                         "value" : 9555059
                 }
-        ],
+			],
+```
 
 
 Wszystkie rodzaje wypadkÛw i ich liczba: 
@@ -140,7 +150,8 @@ Wszystkie rodzaje wypadkÛw i ich liczba:
 
 Odpowiedü serwera(fragment):
 
-	"results" : [
+```json
+"results" : [
                 {
                         "_id" : "Complex Disasters",
                         "value" : 12
@@ -157,7 +168,7 @@ Odpowiedü serwera(fragment):
                         "_id" : "Epidemic",
                         "value" : 1179
                 },
-
+```
 
 Liczba zabitych w poszczegÛlnych rodzajach wypadkÛw: 
 	
@@ -165,7 +176,8 @@ Liczba zabitych w poszczegÛlnych rodzajach wypadkÛw:
 	
 Odpowiedü serwera(fragment):
 
-	"results" : [
+```json
+"results" : [
                 {
                         "_id" : "Complex Disasters",
                         "value" : 5610000
@@ -182,7 +194,7 @@ Odpowiedü serwera(fragment):
                         "_id" : "Epidemic",
                         "value" : 9555059
                 },
-
+```
 
 årednia liczba zabitych w jednej epidemii: 
 	
@@ -190,7 +202,8 @@ Odpowiedü serwera(fragment):
 	
 Odpowiedü serwera(fragment):
 
-	"results" : [
+```json	
+"results" : [
                 {
                         "_id" : [
                                 "Epidemic",
@@ -198,3 +211,4 @@ Odpowiedü serwera(fragment):
                         ],
                         "value" : 5685.20440445735
                 }
+```
